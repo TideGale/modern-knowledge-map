@@ -119,3 +119,126 @@ resources:
     level: C
     verified: 2026-11
     topic: 社区
+  # ---------- 英语 ----------
+  - name: BBC Learning English
+    url: https://www.bbc.co.uk/learningenglish/
+    desc: 分级新闻和语音，免费
+    level: B
+    verified: 2026-11
+    topic: 英语
+
+  - name: VOA Learning English
+    url: https://learningenglish.voanews.com/
+    desc: 慢速英语，有文本对照
+    level: B
+    verified: 2026-11
+    topic: 英语
+
+  - name: TED
+    url: https://www.ted.com/talks
+    desc: 演讲带字幕，可关字幕练听力
+    level: B
+    verified: 2026-11
+    topic: 英语
+
+  - name: Project Gutenberg
+    url: https://www.gutenberg.org/
+    desc: 公版英文书，免费下载
+    level: A
+    verified: 2026-11
+    topic: 英语
+
+  # ---------- 身体与营养 ----------
+  - name: 中国居民膳食指南
+    url: http://dg.cnsoc.org/
+    desc: 中国营养学会官方膳食建议
+    level: A
+    verified: 2026-11
+    topic: 身体与营养
+
+  - name: 世界卫生组织
+    url: https://www.who.int/
+    desc: 全球健康数据与指南，有中文
+    level: A
+    verified: 2026-11
+    topic: 身体与营养
+
+  - name: 国家卫生健康委员会
+    url: http://www.nhc.gov.cn/
+    desc: 中国卫生政策与健康科普
+    level: A
+    verified: 2026-11
+    topic: 身体与营养
+
+  - name: Cochrane Library
+    url: https://www.cochranelibrary.com/
+    desc: 系统综述，证据等级最高
+    level: A
+    verified: 2026-11
+    topic: 身体与营养
+
+  # ---------- 金钱与经济 ----------
+  - name: 中国人民银行
+    url: http://www.pbc.gov.cn/
+    desc: 利率、货币政策原文
+    level: A
+    verified: 2026-11
+    topic: 金钱与经济
+
+  - name: 中国证监会
+    url: http://www.csrc.gov.cn/
+    desc: 证券法规与投资者教育
+    level: A
+    verified: 2026-11
+    topic: 金钱与经济
+
+  - name: 国家金融监督管理总局
+    url: https://www.nfra.gov.cn/
+    desc: 银行保险机构与风险提示
+    level: A
+    verified: 2026-11
+    topic: 金钱与经济
+
+  - name: 中国投资者网
+    url: https://www.investor.org.cn/
+    desc: 官方投资者教育，有风险案例
+    level: A
+    verified: 2026-11
+    topic: 金钱与经济
+
+  # ---------- 法律与社会规则 ----------
+  - name: 最高人民法院
+    url: https://www.court.gov.cn/
+    desc: 司法解释、指导案例
+    level: A
+    verified: 2026-11
+    topic: 法律
+
+  - name: 中国裁判文书网
+    url: https://wenshu.court.gov.cn/
+    desc: 看类似案子怎么判
+    level: A
+    verified: 2026-11
+    topic: 法律
+
+  - name: 中国法律服务网
+    url: https://www.12348.gov.cn/
+    desc: 免费法律咨询和援助申请
+    level: A
+    verified: 2026-11
+    topic: 法律
+
+  - name: 国家市场监督管理总局
+    url: https://www.samr.gov.cn/
+    desc: 消费维权、市场监管政策
+    level: A
+    verified: 2026-11
+    topic: 法律
+
+  # ---------- 学习方法 ----------
+  - name: Learning How to Learn
+    url: https://www.coursera.org/learn/learning-how-to-learn
+    desc: 加州大学课程，学习方法入门
+    level: B
+    verified: 2026-11
+    topic: 学习方法
