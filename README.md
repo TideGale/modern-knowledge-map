@@ -59,6 +59,22 @@
 
 `scripts/check_links.py` 读 `data/resources.yml`，逐个请求，输出失效清单。建议每月跑一次。
 
+```bash
+python scripts/check_links.py              # 直接跑
+python scripts/check_links.py --proxy http://127.0.0.1:7890   # 有代理时
+```
+
+脚本把结果分成四种，**只有 404 和 410 才算真的失效**：
+
+| 状态 | 含义 | 要做什么 |
+| --- | --- | --- |
+| OK | 能访问，或有访问限制但站点还在 | 无 |
+| TIMEOUT | 请求超时 | 换网络或用 `--proxy` 重跑 |
+| UNREACHABLE | DNS 或连接失败 | 同上 |
+| DEAD | 404、410 | 确认后删掉或换链接 |
+
+**为什么要分开。** 这个仓库在国内网络环境维护，访问 Google Scholar、PubMed、MDN 这类国外站点超时是常态。把它们算成失效会产生大量误报，项目立刻失去可信度。所以脚本宁可漏报，不可误报。
+
 ## 谁能用
 
 - **求职中的学生**：面试前查技术事实，别背二手说法。
