@@ -1,0 +1,53 @@
+# 许可证
+
+本仓库使用两种许可证，按内容类型区分。
+
+## 文字内容
+
+`docs/` 目录下的所有 Markdown 文件，以及 `README.md`、`CONTRIBUTING.md`、`CHANGELOG.md`，采用 **CC BY 4.0**（Creative Commons Attribution 4.0 International，知识共享署名 4.0 国际许可协议）。
+
+你可以：
+
+- 复制、转载、改编这些文字
+- 用于商业用途
+- 只要注明来源（本仓库地址）和作者
+
+完整法律文本：https://creativecommons.org/licenses/by/4.0/legalcode
+
+## 代码
+
+`scripts/` 目录下的所有代码文件，采用 **MIT License**：
+
+```
+MIT License
+
+Copyright (c) 2026 Tan Guoqiang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 数据文件
+
+`data/resources.yml` 采用 **CC0 1.0**（公共领域贡献），可以随意取用，不需要署名。
+
+## 被收录的第三方资源
+
+本仓库只收录链接和一句话介绍，**不复制第三方内容**。被收录资源的版权归原作者所有，使用时请遵守各自的使用条款。
+
+如果你的资源被收录且不希望出现在这里，提一个 issue，我会删除。

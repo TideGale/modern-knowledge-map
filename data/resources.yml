@@ -1,0 +1,121 @@
+# 资源清单（机器可读版本）
+#
+# 字段说明：
+#   name      官方名称
+#   url       一级入口，不写深层链接
+#   desc      一句话定位，不超过 25 字
+#   level     A 官方原始 / B 开放教材 / C 社区线索
+#   verified  核验日期，格式 YYYY-MM，含义是"这个月打开过，链接有效"
+#   topic     所属分类
+#
+# 新增条目必须带 verified 字段。没有核验日期的条目会被 check_links.py 标出来。
+
+resources:
+  # ---------- 查原始文献 ----------
+  - name: Google Scholar
+    url: https://scholar.google.com/
+    desc: 跨库找论文，能看到被引次数
+    level: A
+    verified: 2026-11
+    topic: 原始文献
+
+  - name: Semantic Scholar
+    url: https://www.semanticscholar.org/
+    desc: 有 AI 摘要和引用关系图，找综述好用
+    level: A
+    verified: 2026-11
+    topic: 原始文献
+
+  - name: arXiv
+    url: https://arxiv.org/
+    desc: 预印本平台，注意未经同行评审
+    level: A
+    verified: 2026-11
+    topic: 原始文献
+
+  - name: PubMed
+    url: https://pubmed.ncbi.nlm.nih.gov/
+    desc: 生物医学文献，看摘要够用
+    level: A
+    verified: 2026-11
+    topic: 原始文献
+
+  - name: 国家哲学社会科学文献中心
+    url: https://www.ncpssd.org/
+    desc: 中文社科文献，免费
+    level: A
+    verified: 2026-11
+    topic: 原始文献
+
+  # ---------- 查事实与数据 ----------
+  - name: 国家法律法规数据库
+    url: https://flk.npc.gov.cn/
+    desc: 中国法律原文，唯一权威入口
+    level: A
+    verified: 2026-11
+    topic: 事实与数据
+
+  - name: 国家标准全文公开系统
+    url: https://openstd.samr.gov.cn/
+    desc: 国标原文，部分可在线阅读
+    level: A
+    verified: 2026-11
+    topic: 事实与数据
+
+  - name: 国家统计局
+    url: https://www.stats.gov.cn/
+    desc: 中国宏观数据的第一手来源
+    level: A
+    verified: 2026-11
+    topic: 事实与数据
+
+  - name: Our World in Data
+    url: https://ourworldindata.org/
+    desc: 全球数据可视化，每条都标原始出处
+    level: A
+    verified: 2026-11
+    topic: 事实与数据
+
+  - name: 中国互联网联合辟谣平台
+    url: https://www.piyao.org.cn/
+    desc: 国内谣言核查，官方背景
+    level: A
+    verified: 2026-11
+    topic: 事实与数据
+
+  # ---------- 系统学东西 ----------
+  - name: MIT OpenCourseWare
+    url: https://ocw.mit.edu/
+    desc: 麻省理工课程材料全公开
+    level: B
+    verified: 2026-11
+    topic: 开放课程
+
+  - name: 中国大学 MOOC
+    url: https://www.icourse163.org/
+    desc: 国内高校课程，有证书
+    level: B
+    verified: 2026-11
+    topic: 开放课程
+
+  - name: MDN Web Docs
+    url: https://developer.mozilla.org/
+    desc: 前端标准的权威解释
+    level: A
+    verified: 2026-11
+    topic: 技术文档
+
+  - name: RFC Editor
+    url: https://www.rfc-editor.org/
+    desc: 网络协议原文，看不懂也比二手强
+    level: A
+    verified: 2026-11
+    topic: 技术文档
+
+  # ---------- 社区线索 ----------
+  - name: Stack Overflow
+    url: https://stackoverflow.com/
+    desc: 答案质量参差，看投票和高赞评论
+    level: C
+    verified: 2026-11
+    topic: 社区

@@ -1,0 +1,17 @@
+# Obsidian
+.obsidian/
+.trash/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 检查输出
+link-report.json
+out.json
